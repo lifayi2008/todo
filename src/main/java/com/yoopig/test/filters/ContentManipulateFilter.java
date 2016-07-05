@@ -16,7 +16,6 @@ import java.util.List;
  * Created by lifayi on 2016/7/4.
  */
 @WebFilter(urlPatterns = {"/content/delete", "/content/changeStatus"})
-@WebInitParam(name="loadOnStartup", value="2")
 public class ContentManipulateFilter implements Filter{
 
     public void init(FilterConfig filterConfig) throws ServletException {

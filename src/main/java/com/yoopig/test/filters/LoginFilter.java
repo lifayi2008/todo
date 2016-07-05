@@ -13,7 +13,6 @@ import java.io.UnsupportedEncodingException;
  * Created by lifayi on 2016/7/4.
  */
 @WebFilter(urlPatterns = "/content/*")
-@WebInitParam(name="loadOnStartup", value="1")
 public class LoginFilter implements Filter {
 
     public void init(FilterConfig config) {
